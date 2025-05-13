@@ -19,7 +19,7 @@ The analysis followed these main stages:
 3. Training a **LogisticRegression** model.
 4. Generating predictions and evaluating performance using classification metrics.
 
-##**Results**
+## **Results**
 Logistic Regression Model
 - Accuracy: 0.99
 - Precision:
@@ -32,7 +32,7 @@ Logistic Regression Model
   - Healthy Loan: 1.00
   - High-Risk Loan: 0.91
 
-##**Summary**
+## **Summary**
 Overall, the **LogisticRegression** model performed very well. It achieved perfect classification on the dominant healthy loan class, while also showing some strong metrics for the minority high-risk loan class, despite the observed imbalance.
 - **Business Consideration**: In this case, correctly identifying **High-Risk Loans** is more critical than misclassifying a small number of Healthy Loans. Perhaps training the model on a more balanced dataset or trying to tune the model to catch more high-risk loans at the cost of a few healthy classifications could see improvements in this area. However, a 95% recall for High-Risk Loans seems to suggest that this model is sufficient at catching these high-risk cases.
 - **Recommendation** Based on the high metrics observed, this Logistic Regression model is recommended for deployment in production environments. Depending on each use-case, the model could be tuned to further improve metrics within the high-risk loans class.
