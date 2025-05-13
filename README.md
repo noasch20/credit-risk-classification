@@ -11,6 +11,7 @@ The dataset included key financial variables such as:
 The target variable was `loan_status`, with the two classes being:
 - **Healthy Loan:** 18,759 instances
 - **High-Risk Loan:** 625 instances
+
 This demonstrates a significant class imbalance (~97% Health vs. ~3% High-Risk).
 
 The analysis followed these main stages:
